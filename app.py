@@ -68,7 +68,7 @@ def parse_format_to_schema(format_text):
 # ==========================================
 
 def main():
-    st.title("GPT Information Extractor v2.1")
+    st.title("GPT Information Extractor v2.0")
     st.markdown("<small>Fixed Schema Compatibility</small>", unsafe_allow_html=True)
     
     # 1. API Key 입력
@@ -207,4 +207,5 @@ def main():
         )
 
 if __name__ == "__main__":
+
     main()
